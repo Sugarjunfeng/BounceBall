@@ -1,5 +1,6 @@
 # BounceBall
-Demo
+Demo的改动效果
+![游戏过程](https://github.com/Sugarjunfeng/BounceBall/blob/master/BounceBall-Demo/BounceBall.gif)
 ##1.first submit
 环境：Xcode6.4
 ###1.1 将部分宏定义修改为类型常量
