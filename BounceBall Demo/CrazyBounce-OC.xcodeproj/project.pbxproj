@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D830C6281AF76247009279CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D830C6271AF76247009279CF /* main.m */; };
+		D830C62B1AF76247009279CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D830C62A1AF76247009279CF /* AppDelegate.m */; };
+		D830C62E1AF76247009279CF /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = D830C62D1AF76247009279CF /* GameScene.m */; };
+		D830C6331AF76247009279CF /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D830C6321AF76247009279CF /* GameViewController.m */; };
+		D830C6361AF76247009279CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D830C6341AF76247009279CF /* Main.storyboard */; };
+		D830C6471AF76248009279CF /* CrazyBounce_OCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D830C6461AF76248009279CF /* CrazyBounce_OCTests.m */; };
+		D830C6521AF762DE009279CF /* Images-iOS.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D830C6511AF762DE009279CF /* Images-iOS.xcassets */; };
+		D830C6561AF7633C009279CF /* GameBeginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D830C6551AF7633C009279CF /* GameBeginViewController.m */; };
+		D830C65C1AF763C9009279CF /* waterView.m in Sources */ = {isa = PBXBuildFile; fileRef = D830C65B1AF763C9009279CF /* waterView.m */; };
+		D830C6621AF77B77009279CF /* FileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D830C6611AF77B77009279CF /* FileManager.m */; };
+		D830C6691AF78100009279CF /* Bar.m in Sources */ = {isa = PBXBuildFile; fileRef = D830C6681AF78100009279CF /* Bar.m */; };
+		D830C66D1AF78E8F009279CF /* Ball.m in Sources */ = {isa = PBXBuildFile; fileRef = D830C66C1AF78E8F009279CF /* Ball.m */; };
+		D846CEAB1AFD11AD00C2F244 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D830C6321AF76247009279CF /* GameViewController.m */; };
+		D87624CF1AF9BB2100221D06 /* GameOverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D87624CE1AF9BB2100221D06 /* GameOverViewController.m */; };
+		D88D2E071AF8B5BF00A4B19D /* AllCleanBall.m in Sources */ = {isa = PBXBuildFile; fileRef = D88D2E061AF8B5BF00A4B19D /* AllCleanBall.m */; };
+		D88D2E0A1AF8B90000A4B19D /* LongBarBall.m in Sources */ = {isa = PBXBuildFile; fileRef = D88D2E091AF8B90000A4B19D /* LongBarBall.m */; };
+		D88D2E101AF8BA4C00A4B19D /* SlowBall.m in Sources */ = {isa = PBXBuildFile; fileRef = D88D2E0F1AF8BA4C00A4B19D /* SlowBall.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D830C6411AF76248009279CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D830C61A1AF76247009279CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D830C6211AF76247009279CF;
+			remoteInfo = "CrazyBounce-OC";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D830C6221AF76247009279CF /* CrazyBounce-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CrazyBounce-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D830C6261AF76247009279CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D830C6271AF76247009279CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D830C6291AF76247009279CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D830C62A1AF76247009279CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D830C62C1AF76247009279CF /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GameScene.h; path = "CrazyBounce-OC/GameScene.h"; sourceTree = "<group>"; };
+		D830C62D1AF76247009279CF /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = GameScene.m; path = "CrazyBounce-OC/GameScene.m"; sourceTree = "<group>"; };
+		D830C6311AF76247009279CF /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		D830C6321AF76247009279CF /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		D830C6351AF76247009279CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D830C6401AF76248009279CF /* CrazyBounce-OCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CrazyBounce-OCTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D830C6451AF76248009279CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D830C6461AF76248009279CF /* CrazyBounce_OCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrazyBounce_OCTests.m; sourceTree = "<group>"; };
+		D830C6511AF762DE009279CF /* Images-iOS.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-iOS.xcassets"; sourceTree = "<group>"; };
+		D830C6541AF7633C009279CF /* GameBeginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameBeginViewController.h; path = Controller/GameBeginViewController.h; sourceTree = "<group>"; };
+		D830C6551AF7633C009279CF /* GameBeginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameBeginViewController.m; path = Controller/GameBeginViewController.m; sourceTree = "<group>"; };
+		D830C65A1AF763C9009279CF /* waterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = waterView.h; path = "CrazyBounce-OC/GameElements/waterView.h"; sourceTree = "<group>"; };
+		D830C65B1AF763C9009279CF /* waterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = waterView.m; path = "CrazyBounce-OC/GameElements/waterView.m"; sourceTree = "<group>"; };
+		D830C6601AF77B77009279CF /* FileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FileManager.h; path = "CrazyBounce-OC/GameElements/FileManager.h"; sourceTree = "<group>"; };
+		D830C6611AF77B77009279CF /* FileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FileManager.m; path = "CrazyBounce-OC/GameElements/FileManager.m"; sourceTree = "<group>"; };
+		D830C6671AF78100009279CF /* Bar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Bar.h; path = "CrazyBounce-OC/GameElements/Bar/Bar.h"; sourceTree = "<group>"; };
+		D830C6681AF78100009279CF /* Bar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Bar.m; path = "CrazyBounce-OC/GameElements/Bar/Bar.m"; sourceTree = "<group>"; };
+		D830C66B1AF78E8F009279CF /* Ball.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Ball.h; path = "CrazyBounce-OC/GameElements/Ball/Ball.h"; sourceTree = "<group>"; };
+		D830C66C1AF78E8F009279CF /* Ball.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Ball.m; path = "CrazyBounce-OC/GameElements/Ball/Ball.m"; sourceTree = "<group>"; };
+		D87624CD1AF9BB2100221D06 /* GameOverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameOverViewController.h; path = Controller/GameOverViewController.h; sourceTree = "<group>"; };
+		D87624CE1AF9BB2100221D06 /* GameOverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameOverViewController.m; path = Controller/GameOverViewController.m; sourceTree = "<group>"; };
+		D88D2E051AF8B5BF00A4B19D /* AllCleanBall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AllCleanBall.h; path = "CrazyBounce-OC/GameElements/Ball/AllCleanBall.h"; sourceTree = "<group>"; };
+		D88D2E061AF8B5BF00A4B19D /* AllCleanBall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AllCleanBall.m; path = "CrazyBounce-OC/GameElements/Ball/AllCleanBall.m"; sourceTree = "<group>"; };
+		D88D2E081AF8B90000A4B19D /* LongBarBall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LongBarBall.h; path = "CrazyBounce-OC/GameElements/Ball/LongBarBall.h"; sourceTree = "<group>"; };
+		D88D2E091AF8B90000A4B19D /* LongBarBall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LongBarBall.m; path = "CrazyBounce-OC/GameElements/Ball/LongBarBall.m"; sourceTree = "<group>"; };
+		D88D2E0E1AF8BA4C00A4B19D /* SlowBall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SlowBall.h; path = "CrazyBounce-OC/GameElements/Ball/SlowBall.h"; sourceTree = "<group>"; };
+		D88D2E0F1AF8BA4C00A4B19D /* SlowBall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SlowBall.m; path = "CrazyBounce-OC/GameElements/Ball/SlowBall.m"; sourceTree = "<group>"; };
+		D897A51C1AF91D0C00CA650F /* GameElements.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameElements.h; path = "CrazyBounce-OC/GameElements.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D830C61F1AF76247009279CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D830C63D1AF76248009279CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D830C6191AF76247009279CF = {
+			isa = PBXGroup;
+			children = (
+				D830C6571AF76380009279CF /* CrazyBounce Shared */,
+				D830C6241AF76247009279CF /* CrazyBounce-OC */,
+				D830C6501AF762AA009279CF /* Assets */,
+				D830C6431AF76248009279CF /* CrazyBounce-OCTests */,
+				D830C6231AF76247009279CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D830C6231AF76247009279CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D830C6221AF76247009279CF /* CrazyBounce-OC.app */,
+				D830C6401AF76248009279CF /* CrazyBounce-OCTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D830C6241AF76247009279CF /* CrazyBounce-OC */ = {
+			isa = PBXGroup;
+			children = (
+				D830C6531AF762F9009279CF /* Controller */,
+				D830C6341AF76247009279CF /* Main.storyboard */,
+				D830C6251AF76247009279CF /* Supporting Files */,
+			);
+			path = "CrazyBounce-OC";
+			sourceTree = "<group>";
+		};
+		D830C6251AF76247009279CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D830C6291AF76247009279CF /* AppDelegate.h */,
+				D830C62A1AF76247009279CF /* AppDelegate.m */,
+				D830C6261AF76247009279CF /* Info.plist */,
+				D830C6271AF76247009279CF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D830C6431AF76248009279CF /* CrazyBounce-OCTests */ = {
+			isa = PBXGroup;
+			children = (
+				D830C6461AF76248009279CF /* CrazyBounce_OCTests.m */,
+				D830C6441AF76248009279CF /* Supporting Files */,
+			);
+			path = "CrazyBounce-OCTests";
+			sourceTree = "<group>";
+		};
+		D830C6441AF76248009279CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D830C6451AF76248009279CF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D830C6501AF762AA009279CF /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				D830C6511AF762DE009279CF /* Images-iOS.xcassets */,
+			);
+			name = Assets;
+			path = "CrazyBounce-OC";
+			sourceTree = "<group>";
+		};
+		D830C6531AF762F9009279CF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D830C6311AF76247009279CF /* GameViewController.h */,
+				D830C6321AF76247009279CF /* GameViewController.m */,
+				D830C6541AF7633C009279CF /* GameBeginViewController.h */,
+				D830C6551AF7633C009279CF /* GameBeginViewController.m */,
+				D87624CD1AF9BB2100221D06 /* GameOverViewController.h */,
+				D87624CE1AF9BB2100221D06 /* GameOverViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		D830C6571AF76380009279CF /* CrazyBounce Shared */ = {
+			isa = PBXGroup;
+			children = (
+				D830C65D1AF77895009279CF /* GameScene */,
+				D830C6581AF76394009279CF /* Game Elements */,
+				D897A51C1AF91D0C00CA650F /* GameElements.h */,
+			);
+			name = "CrazyBounce Shared";
+			sourceTree = "<group>";
+		};
+		D830C6581AF76394009279CF /* Game Elements */ = {
+			isa = PBXGroup;
+			children = (
+				D830C66A1AF78E73009279CF /* Ball */,
+				D830C6631AF780CD009279CF /* Bar */,
+				D830C6591AF7639B009279CF /* Background - Wave */,
+				D830C6601AF77B77009279CF /* FileManager.h */,
+				D830C6611AF77B77009279CF /* FileManager.m */,
+			);
+			name = "Game Elements";
+			sourceTree = "<group>";
+		};
+		D830C6591AF7639B009279CF /* Background - Wave */ = {
+			isa = PBXGroup;
+			children = (
+				D830C65A1AF763C9009279CF /* waterView.h */,
+				D830C65B1AF763C9009279CF /* waterView.m */,
+			);
+			name = "Background - Wave";
+			sourceTree = "<group>";
+		};
+		D830C65D1AF77895009279CF /* GameScene */ = {
+			isa = PBXGroup;
+			children = (
+				D830C62C1AF76247009279CF /* GameScene.h */,
+				D830C62D1AF76247009279CF /* GameScene.m */,
+			);
+			name = GameScene;
+			sourceTree = "<group>";
+		};
+		D830C6631AF780CD009279CF /* Bar */ = {
+			isa = PBXGroup;
+			children = (
+				D830C6671AF78100009279CF /* Bar.h */,
+				D830C6681AF78100009279CF /* Bar.m */,
+			);
+			name = Bar;
+			sourceTree = "<group>";
+		};
+		D830C66A1AF78E73009279CF /* Ball */ = {
+			isa = PBXGroup;
+			children = (
+				D830C66B1AF78E8F009279CF /* Ball.h */,
+				D830C66C1AF78E8F009279CF /* Ball.m */,
+				D88D2E051AF8B5BF00A4B19D /* AllCleanBall.h */,
+				D88D2E061AF8B5BF00A4B19D /* AllCleanBall.m */,
+				D88D2E081AF8B90000A4B19D /* LongBarBall.h */,
+				D88D2E091AF8B90000A4B19D /* LongBarBall.m */,
+				D88D2E0E1AF8BA4C00A4B19D /* SlowBall.h */,
+				D88D2E0F1AF8BA4C00A4B19D /* SlowBall.m */,
+			);
+			name = Ball;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D830C6211AF76247009279CF /* CrazyBounce-OC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D830C64A1AF76248009279CF /* Build configuration list for PBXNativeTarget "CrazyBounce-OC" */;
+			buildPhases = (
+				D830C61E1AF76247009279CF /* Sources */,
+				D830C61F1AF76247009279CF /* Frameworks */,
+				D830C6201AF76247009279CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CrazyBounce-OC";
+			productName = "CrazyBounce-OC";
+			productReference = D830C6221AF76247009279CF /* CrazyBounce-OC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D830C63F1AF76248009279CF /* CrazyBounce-OCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D830C64D1AF76248009279CF /* Build configuration list for PBXNativeTarget "CrazyBounce-OCTests" */;
+			buildPhases = (
+				D830C63C1AF76248009279CF /* Sources */,
+				D830C63D1AF76248009279CF /* Frameworks */,
+				D830C63E1AF76248009279CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D830C6421AF76248009279CF /* PBXTargetDependency */,
+			);
+			name = "CrazyBounce-OCTests";
+			productName = "CrazyBounce-OCTests";
+			productReference = D830C6401AF76248009279CF /* CrazyBounce-OCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D830C61A1AF76247009279CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "益行人";
+				TargetAttributes = {
+					D830C6211AF76247009279CF = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = B7BX4AH7PK;
+					};
+					D830C63F1AF76248009279CF = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = D830C6211AF76247009279CF;
+					};
+				};
+			};
+			buildConfigurationList = D830C61D1AF76247009279CF /* Build configuration list for PBXProject "CrazyBounce-OC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D830C6191AF76247009279CF;
+			productRefGroup = D830C6231AF76247009279CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D830C6211AF76247009279CF /* CrazyBounce-OC */,
+				D830C63F1AF76248009279CF /* CrazyBounce-OCTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D830C6201AF76247009279CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D830C6521AF762DE009279CF /* Images-iOS.xcassets in Resources */,
+				D830C6361AF76247009279CF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D830C63E1AF76248009279CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D830C61E1AF76247009279CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D88D2E0A1AF8B90000A4B19D /* LongBarBall.m in Sources */,
+				D830C6331AF76247009279CF /* GameViewController.m in Sources */,
+				D830C62B1AF76247009279CF /* AppDelegate.m in Sources */,
+				D88D2E071AF8B5BF00A4B19D /* AllCleanBall.m in Sources */,
+				D830C62E1AF76247009279CF /* GameScene.m in Sources */,
+				D87624CF1AF9BB2100221D06 /* GameOverViewController.m in Sources */,
+				D830C6561AF7633C009279CF /* GameBeginViewController.m in Sources */,
+				D830C65C1AF763C9009279CF /* waterView.m in Sources */,
+				D830C6691AF78100009279CF /* Bar.m in Sources */,
+				D830C6621AF77B77009279CF /* FileManager.m in Sources */,
+				D88D2E101AF8BA4C00A4B19D /* SlowBall.m in Sources */,
+				D830C6281AF76247009279CF /* main.m in Sources */,
+				D830C66D1AF78E8F009279CF /* Ball.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D830C63C1AF76248009279CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D846CEAB1AFD11AD00C2F244 /* GameViewController.m in Sources */,
+				D830C6471AF76248009279CF /* CrazyBounce_OCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D830C6421AF76248009279CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D830C6211AF76247009279CF /* CrazyBounce-OC */;
+			targetProxy = D830C6411AF76248009279CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D830C6341AF76247009279CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D830C6351AF76247009279CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D830C6481AF76248009279CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D830C6491AF76248009279CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D830C64B1AF76248009279CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "CrazyBounce-OC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.1-sugar.CrazyBounce-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D830C64C1AF76248009279CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "CrazyBounce-OC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.1-sugar.CrazyBounce-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		D830C64E1AF76248009279CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CrazyBounce-OCTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.1-xing.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrazyBounce-OC.app/CrazyBounce-OC";
+			};
+			name = Debug;
+		};
+		D830C64F1AF76248009279CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CrazyBounce-OCTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.1-xing.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrazyBounce-OC.app/CrazyBounce-OC";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D830C61D1AF76247009279CF /* Build configuration list for PBXProject "CrazyBounce-OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D830C6481AF76248009279CF /* Debug */,
+				D830C6491AF76248009279CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D830C64A1AF76248009279CF /* Build configuration list for PBXNativeTarget "CrazyBounce-OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D830C64B1AF76248009279CF /* Debug */,
+				D830C64C1AF76248009279CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D830C64D1AF76248009279CF /* Build configuration list for PBXNativeTarget "CrazyBounce-OCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D830C64E1AF76248009279CF /* Debug */,
+				D830C64F1AF76248009279CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D830C61A1AF76247009279CF /* Project object */;
+}
